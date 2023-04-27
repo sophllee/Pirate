@@ -9,7 +9,6 @@ function playPause(){
         myAudio.loop=true;
         playPauseButton.innerHTML = "Pause Audio"
     }
-
     else{
         count = 0;
         audio.pause();
