@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Captain's Desk</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico">
+    <link rel="stylesheet" href="./deskStyle.css">
+</head>
+
+<body>
+    <div class="background-image">
+        <script src="./desk.js"></script>
+    </div>
+    
+    <div class="overlay" rows="3">
+
+        <div class="item1">
+            <img src="./Assets/blank.png" id="onClickImage" width="700px" height="600px" onclick="navigate()"> 
+            <script src="desk.js"></script>
+        </div>
+
+        <div class = "item2">
+            <div class = "instructions">Click the middle of the glass to continue.</div>
+        </div>
+
+        <div class="item3">
+            <audio id="myAudio">
+                <source src="./Assets/backgroundSound.mp3">
+            </audio>
+
+            <button id="playPauseButton" onclick="playPause()"> Play Audio</button>
+            <script src="desk.js"></script>
+        </div>
+
+        
+    </div>
+    
+
+</body>
+</html>

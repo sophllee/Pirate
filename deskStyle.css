@@ -1,0 +1,53 @@
+.background-image{
+   background-image: url("./Assets/background.png");
+   background-size:cover;
+   background-repeat:no-repeat;
+   background-position: center center;
+   height: 100vh;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.overlay{
+    position:absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    width:95%;
+    max-width:45em;
+    margin: auto auto 1em;
+    box-sizing: border-box;
+    padding:2em;
+    text-align: center; 
+}
+
+.overlay img{
+    padding-bottom:15%
+}
+
+.item2{
+    display:inline-block;
+}
+.item3{
+    padding-top:10%;
+}
+
+.instructions{
+    overflow:hidden; 
+    color: #DED1BD;
+    font-size: 20px;
+    white-space:nowrap;
+    border-right: 20px #DED1BD;
+    width:0;
+    animation: typing 2.5s steps(50,end) forwards;
+}
+
+@keyframes typing{
+   from{width:0}
+   to{width:100%}
+}
+
+
